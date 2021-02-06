@@ -1,0 +1,42 @@
+
+// import font arabic
+
+@font-face {
+    src: url(../fonts/Cairo-Bold.ttf);
+    font-family: "ar-heading";
+}
+
+@font-face {
+    src: url(../fonts/JFFlatregular.ttf);
+    font-family: "ar-font";
+}
+
+$font-write: "ar-content";
+$font-heading: "ar-heading";
+$font-lang: "ar-font";
+
+body {
+    font-family: $font-lang;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+}
+
+p, span, li, body, a{
+    font-family: $font-lang;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+small, button, label, textarea {
+    font-family: $font-lang;
+}
+
