@@ -142,24 +142,150 @@
                 <hr>
             </div>
 
-            <div class="container">
+            
+        <!-- Filter Teachers with categories -->
+        <div class="container-fluid bg-color">
 
-                <div class="filter list-teachers text-center">
-                    <input type="radio" id="item-type-all" name="radio-set-1" class="item-type-all" checked="checked">
-                    <label for="item-type-all" class="label-type-all">كل الأساتذة</label>
+        <!-- Filter Teachers -->
 
-                    <input id="item-type-1" name="radio-set-1" type="radio" class="item-type-1">
-                    <label for="item-type-1" class="label-type-1">الرياضيات</label>
+            <div class="row text-right">
+                <div class="col-lg-3 col-md-12">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">دولة المُدرس(ة)</label>
+                            <select class="form-control" id="">
+                              <option selected disabled>ابحث بحسب الدولة</option>
+                              <option>السعودية</option>
+                              <option>المغرب</option>
+                              <option>مصر</option>
+                              <option>أمريكا</option>
+                            </select>
+                          </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">اختر المُدرس(ة)</label>
+                            <select class="form-control" id="">
+                              <option selected disabled>النوع / الجِنس</option>
+                              <option>ذكر</option>
+                              <option>أنثى</option>
+                            </select>
+                          </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">المواد التعليمية</label>
+                            <select class="form-control" id="">
+                              <option selected disabled>اختر المادة التعليمية الذي تريد</option>
+                              <option>الرياضيات</option>
+                              <option>الفيزياء</option>
+                              <option>العربية</option>
+                              <option>الإنجليزية</option>
+                              <option>الإجتماعيات</option>
+                            </select>
+                          </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">تحديد الصِف الدراسي</label>
+                            <select class="form-control" id="">
+                              <option>اختر المرحلة الدراسية</option>
+                              <option>ابتدائي</option>
+                              <option>إعدادي / ثانوي</option>
+                              <option>ثانوي / تأهيلي</option>
+                            </select>
+                          </div>
+                    </form>
+                </div>
+            </div>
 
-                    <input id="item-type-2" name="radio-set-1" type="radio" class="item-type-2">
-                    <label for="item-type-2" class="label-type-2">الإجتماعيات</label>
+            <hr>
 
-                    <input id="item-type-3" name="radio-set-1" type="radio" class="item-type-3">
-                    <label for="item-type-3" class="label-type-3">الإنجليزية</label>
+            <div class="row text-right">
+                <div class="col-lg-3 col-md-12">
+                    <form action="">
+
+                        <div class="form-group form-check">
+                            <h6 class="cst-title">سنوت الخبرة :</h6>
+                            <hr>
+
+                            <p>
+                                <label for="experience">أعـوام الخبرة ما بين:</label>
+                                <input type="text" id="experience" class="form-check-input" readonly>
+                            </p>
+                               
+                            <div id="slider-range"></div>
+
+                        </div>
+
+                    </form>
                 </div>
 
-                <hr>
+                <div class="col-lg-3 col-md-12">
+                    <form action="">
+                        <div class="form-group form-check">
+                            <h6 class="cst-title">السعر حسب الـ 30 دقيقة :</h6>
+                            <hr>
+                            <p>
+                                <label for="Price">حددّ السعر لمدة 30 دقيقة : </label>
+                                <input type="text" id="Price" class="form-check-input" readonly>
+                            </p>
+                               
+                            <div id="slider-range-one"></div>
 
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <form action="" class="form-inline">
+                        <h6 class="cst-title">
+                            تحديد الفترة الزمنية :
+                        <hr>
+                        </h6>
+                        <div class="form-group From-To-Date">
+                            <p class="between">من : </p>
+                            <input type="date" class="form-control" name="" id="" placeholder="13/05/2020">
+                            <hr>
+                            <p class="between">إلى :</p>
+                            <input type="date" class="form-control" name="" id="" placeholder="15/5/2021">
+                        </div>
+                        <!-- Time From / To -->
+                        <h6 class="cst-title title-time">
+                            تحديد الوقت :
+                            <hr>
+                        </h6>
+                        <div class="form-group From-To-Date From-to-time">
+                            <p class="between">من الوقت : </p>
+                            <input type="time" class="form-control" name="" id="" placeholder="14:30">
+                            <hr>
+                            <p class="between">إلى الوقت : </p>
+                            <input type="time" class="form-control" name="" id="" placeholder="15:00">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12">
+                    <form action="">
+                        <div class="form-group">
+                            <!-- <label for="">Click here to filter</label> -->
+                            <button type="submit" class="btn filter-btn form-control">ابحث الآن</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- END Filter Teachers -->
+        </div>
+        <!-- End Filter Teachers -->
+
+            <hr>
+
+            <div class="container">
                 <!-- List Teachers -->
                 <div class="row">
 
@@ -808,6 +934,7 @@
                 <hr>
 
             </div>
+
         </section>
    <!-- End Choose a teacher -->
 
