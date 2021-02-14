@@ -1034,21 +1034,32 @@ section.Contact .image-msg img {
 
         // Filter Teachers
 
-        h6.cst-title {
-            margin: 30px 0;
-        }
-    
-        form.form-inline {
-            display: inline-block !important;
-        }
-    
-        .form-group.From-To-Date.From-to-time {
-            margin: -20px 0;
-        }
+    h6.cst-title {
+        margin: 30px 0;
+    }
 
-        .form-group button.filter-btn {
-            margin: 165px 0 0;
-        }
+    form.form-inline {
+        display: inline-block !important;
+    }
+
+    .form-group.From-To-Date.From-to-time {
+        margin: -20px 0;
+    }
+
+    .form-group button.filter-btn {
+        margin: 165px 0 0;
+    }
+
+    // 
+
+    .From-to-time {
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .form-group button.filter-btn {
+        margin: -10px 0;
+    }
 
 }
 
