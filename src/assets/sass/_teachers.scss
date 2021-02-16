@@ -1,0 +1,106 @@
+//  Style teachers 
+
+
+section.Choose-teacher .line {
+    width: 130px;
+}
+
+section.Choose-teacher .card-group .card {
+    position: relative;
+    margin: 25px 0 45px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 45px 0 rgb(0 0 0 / 15%);
+}
+
+section.Choose-teacher .card-group .card .get-started {
+    position: absolute;
+    background: linear-gradient(75deg, $color-purple, $color-Light-blue);
+    padding: 7px 15px;
+    left: 0;
+    // border-bottom-right-radius: 10px;
+}
+
+section.Choose-teacher .card-group .card .get-started a {
+    color: $color-wheat;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+section.Choose-teacher .card-group .card .get-started a:hover {
+    text-decoration: none;
+    color: $color-white;
+}
+
+section.Choose-teacher .card-group .card .card-body {
+    text-align: right;
+}
+
+section.Choose-teacher .card-group .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 215px;
+}
+
+section.Choose-teacher .card-group .card h5 {
+    font-size: 18px;
+}
+
+section.Choose-teacher .card-group .card h5 svg {
+    margin-left: 5px;
+    color: $color-transition;
+    font-size: 22px;
+}
+
+section.Choose-teacher .card-group .card .card-footer .star svg {
+    color: $color-star;
+    font-size: 15px;
+}
+
+section.Choose-teacher .card-group .card .card-footer .star svg.active {
+    color: $color-star-active;
+    font-size: 15px;
+}
+
+section.Choose-teacher .card-group .card .card-footer .star small {
+    font-weight: bold;
+}
+
+section.Choose-teacher .card-group .card .card-footer .student small {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+section.Choose-teacher .card-group .card .card-footer .student svg {
+    color: $color-transition;
+    font-size: 22px;
+}
+
+section.Choose-teacher .read-more a {
+    background: linear-gradient(50deg, $color-purple, $color-Light-blue);
+    border-radius: 2px;
+    color: $color-antiquewhite;
+    font-family: $font-heading;
+    padding: 10px 20px;
+}
+
+section.Choose-teacher .show-more-teachears {
+    background: linear-gradient(190deg, $color-Light-blue, $color-purple);
+    padding: 20px 28px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 20px 30px rgb(0 0 0 / 20%);
+    color: $color-wheat;
+    transition: all .5s ease-in-out;
+}
+
+section.Choose-teacher .show-more-teachears svg {
+    font-size: 22px;
+    margin-bottom: -4px;
+    margin-left: 3px;
+}
+
+section.Choose-teacher .show-more-teachears:hover {
+    text-decoration: none;
+    color: $color-white;
+}

@@ -1,0 +1,134 @@
+//  Style the footer pages
+
+footer.latest-footer {
+    background: linear-gradient(190deg, $color-Light-blue, $color-purple);
+    margin-top: 6%;
+}
+
+footer.latest-footer .link-arabe {
+    text-align: right;
+}
+
+footer.latest-footer .title-column h4.custom-heading {
+    margin-top: 50px;
+    color: $color-antiquewhite;
+}
+
+footer.latest-footer .line {
+    height: 2px;
+    width: 142px;
+    margin: -5px auto 30px 100%;
+    box-shadow: $color-rgba-two 0px 5px,
+        $color-rgba-one 0px 10px
+}
+
+footer.latest-footer .line.links {
+    width: 135px;
+}
+
+footer.latest-footer .line.info {
+    width: 190px;
+    margin: 0px auto 30px 100%;
+}
+
+footer.latest-footer .logo-website a img {
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+footer.latest-footer .about-description p {
+    color: $color-wheat;
+    margin-bottom: 10%;
+}
+
+footer.latest-footer .btn-link a {
+    font-weight: bold;
+    color: $color-black;
+    background-color: $color-rgba-one;
+    padding: 12px 25px;
+    border-radius: 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    transition: all 0.5s ease-in-out;
+}
+
+footer.latest-footer .btn-link a:hover,
+footer.latest-footer .btn-link a:active,
+footer.latest-footer .btn-link a:focus {
+    text-decoration: none;
+    background-color: $color-rgba-two;
+}
+
+footer.latest-footer .imortant-links {
+    margin: 12px 0;
+}
+
+footer.latest-footer .imortant-links a.link {
+    color: $color-wheat;
+    transition: all .5s ease-in-out;
+}
+
+footer.latest-footer .imortant-links a.link svg {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+footer.latest-footer .imortant-links a.link:hover,
+footer.latest-footer .imortant-links a.link:active,
+footer.latest-footer .imortant-links a.link:focus {
+    text-decoration: none;
+    color: $color-antiquewhite;
+}
+
+footer.latest-footer .info-contact {
+    margin: 18px 0;
+}
+
+footer.latest-footer .info-contact span {
+    font-weight: bold;
+}
+
+footer.latest-footer .info-contact svg {
+    font-size: 22px;
+    margin-left: 6px;
+    color: $color-rgba-one;
+}
+
+footer.latest-footer form {
+    width: 100%;
+    margin: 50px 0 5px 0;
+}
+
+footer.latest-footer form input {
+    height: 60px;
+    margin-top: 12px;
+    font-family: $font-lang;
+}
+
+footer.latest-footer form button.btn-custom {
+    font-family: $font-lang;
+    font-size: 18px;
+    font-weight: bold;
+    color: $color-black;
+    background-color: $color-rgba-one;
+    padding: 12px 25px;
+    border-radius: 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    transition: all 0.5s ease-in-out;
+}
+
+footer.latest-footer form button.btn-custom:hover,
+footer.latest-footer form button.btn-custom:active,
+footer.latest-footer form button.btn-custom:focus {
+    background-color: $color-rgba-two;
+}
+
+footer.latest-footer ul {
+    margin-top: 4%;
+}
+
+footer.latest-footer .copyright p {
+    font-weight: normal;
+    color: $color-white;
+}

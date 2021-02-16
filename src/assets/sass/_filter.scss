@@ -1,0 +1,86 @@
+//  Style Filter
+
+// Page Teachers Filters
+
+.bg-color {
+    background-color: $color-filter;
+    padding: 25px 0;
+}
+
+.form-check-input {
+    position: static !important;
+    border: 0;
+    color: $color-Light-blue !important;
+    font-weight: bold;
+    left: 0;
+    bottom: 10px;
+    margin: 25px 0px;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    background-color: transparent !important;
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid $color-Light-blue !important;
+    margin: -25px 0px;
+}
+
+.ui-slider-range.ui-corner-all.ui-widget-header {
+    background: linear-gradient(50deg, $color-purple, $color-xblue);
+}
+
+span.ui-slider-handle.ui-corner-all.ui-state-default {
+    background-color: $color-black;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+.form-check {
+    padding-left: 0 !important;
+}
+
+
+select.form-control {
+    border-radius: 0;
+    border-color: $color-Light-blue;
+}
+
+select.form-control:hover {
+    cursor: pointer;
+}
+
+.form-group button.filter-btn {
+    font-family: $font-heading;
+    margin: 15px 0 0;
+    font-weight: 600;
+    background: linear-gradient(75deg, $color-purple, $color-Light-blue);
+    color: $color-oldlace;
+    border-radius: 0;
+    border-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.form-group button.filter-btn.more-main {
+    margin: 0;
+}
+
+.form-group button.filter-btn:hover,
+.form-group button.filter-btn:active,
+.form-group button.filter-btn:focus {
+    color: $color-wheat;
+    font-weight: bold;
+}
+
+
+.From-to-time {
+    position: absolute;
+    margin: 25% 0;
+}
+
+.From-To-Date p.between {
+    margin: 0 15px;
+}
+
+h6.cst-title.title-time {
+    margin-top: 25px;
+}

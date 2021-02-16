@@ -1,0 +1,106 @@
+// Style about us
+
+section.About_us .title_item h3 {
+    margin: 30px 0;
+}
+
+section.About_us .line {
+    width: 280px;
+}
+
+section.About_us .long-description p {
+    margin-bottom: 35px;
+}
+
+section.About_us .long-description h5.custom_heading {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+section.About_us .long-description ul {
+    padding: 0;
+}
+
+section.About_us .long-description ul li {
+    margin-right: 25px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, $color-cyan, $color-transition);
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+section.About_us .long-description ul li:hover,
+section.About_us .long-description ul li:active,
+section.About_us .long-description ul li:focus {
+    background: linear-gradient(90deg, $color-Light-blue, $color-purple);
+}
+
+section.About_us .long-description ul li a {
+    color: $color-wheat;
+    transition: all 0.5s ease-in-out;
+}
+
+section.About_us .long-description ul li a:hover,
+section.About_us .long-description ul li a:active,
+section.About_us .long-description ul li a:focus {
+    text-decoration: none;
+    color: $color-white;
+}
+
+section.About_us .about-us-more .small-text p svg {
+    font-size: 20px;
+    margin-left: 7px;
+    color: $color-transition;
+}
+
+
+// Style Page About Us 
+
+header.top_header .image img {
+    height: 400px;
+    margin: 30px 0;
+}
+
+header.top_header .title-column h4 {
+    margin: 30px 0;
+}
+
+section.statistics {
+    background-image: url(../images/banner-education.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 35px;
+    margin-top: 30px;
+}
+
+section.statistics .icon img {
+    height: 120px;
+    margin: 25px 0;
+}
+
+section.statistics .icon img {
+    height: 120px;
+    margin: 25px 0 30px;
+}
+
+section.statistics span.timer {
+    font-family: $font-heading;
+    font-size: 30px;
+    border: 2px solid $color-oldlace;
+    padding: 8px;
+    margin-bottom: 18px;
+    color: $color-tan;
+}
+
+
+section.statistics p {
+    margin-top: 30px;
+    font-family: $font-heading;
+    font-size: 24px;
+    color: $color-antiquewhite;
+}

@@ -1,0 +1,113 @@
+//  Style Pricing
+
+// Page Pricing html
+
+section.Pricing .line {
+    width: 172px;
+}
+
+.pricing-table {
+    background-color: $color-e;
+}
+
+.pricing-table .block-heading {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.pricing-table .block-heading h2 {
+    color: $color-xblue;
+}
+
+.pricing-table .block-heading p {
+    text-align: center;
+    max-width: 420px;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.pricing-table .heading {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $color-ram;
+}
+
+.pricing-table .item {
+    background-color: $color-white;
+    box-shadow: 0px 2px 10px $color-ram;
+    border-top: 2px solid $color-cyan;
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+
+.pricing-table .col-md-5:not(:last-child) .item {
+    margin-bottom: 30px;
+}
+
+.pricing-table .item button {
+    font-weight: 600;
+    background: linear-gradient(100deg, $color-purple, $color-transition);
+    border-color: $color-white;
+    border-radius: 25px;
+    color: $color-wheat;
+    font-family: $font-lang;
+    padding: 14px;
+    transition: all 0.6s ease-in-out;
+}
+
+.pricing-table .item button:hover,
+.pricing-table .item button:active,
+.pricing-table .item button:focus {
+    color: $color-oldlace;
+}
+
+.pricing-table .ribbon {
+    width: 160px;
+    height: 32px;
+    font-family: $font-lang;
+    font-size: 12px;
+    text-align: center;
+    color: $color-white;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px $color-ram;
+    background: $color-Light-blue;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -42px;
+    top: 20px;
+    padding-top: 7px;
+}
+
+.pricing-table .item p {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.pricing-table .features .feature {
+    font-weight: 600;
+}
+
+.pricing-table .features h4 {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.pricing-table .price h4 {
+    margin: 15px 0;
+    font-size: 45px;
+    text-align: center;
+    color: $color-transition;
+}
+
+.pricing-table .buy-now button {
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    padding: 9px 0;
+}

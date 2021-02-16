@@ -1,7 +1,18 @@
+// Import file style scss (sass)
 
 @import './fonts';
 @import './color';
 @import './images';
+@import './header';
+@import './about';
+@import './features';
+@import './how';
+@import './teachers';
+@import './filter';
+@import './pricing';
+@import './contact';
+@import './footer';
+
 
 // Styles Website
 
@@ -13,100 +24,6 @@ body {
     direction: rtl;
     font-family: $font-lang;
     font-size: 18px;
-}
-
-header.top_header {
-    background-image: url(../images/header_top.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-nav button.navbar-toggler {
-    color: #fff;
-    font-size: 25px;
-    background: $color-transition;
-}
-
-header.top_header nav a img {
-    height: 75px;
-}
-
-header.top_header nav ul {
-    padding: 0;
-    text-align: center;
-}
-
-header.top_header nav ul li a {
-    color: $color-black;
-    transition: all 0.5s ease-in-out;
-}
-
-header.top_header nav ul li a:hover,
-header.top_header nav ul li a:active,
-header.top_header nav ul li a:focus {
-    color: $color-white;
-}
-
-header.top_header nav ul li {
-    transition: all 0.5s ease-in-out;
-}
-
-header.top_header nav ul li:hover,
-header.top_header nav ul li:active,
-header.top_header nav ul li:focus {
-    background: linear-gradient(120deg, $color-purple, $color-transition);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 5px;
-}
-
-header.top_header nav ul li a.lang {
-    font-family: $font-lang;
-}
-
-header.top_header nav ul li.item-anthor {
-    background: linear-gradient(45deg, $color-cyan, $color-transition);
-    margin-right: 15px;
-    border-radius: 25px;
-    padding: 0px 22px;
-}
-
-header.top_header nav ul li.item-anthor:hover,
-header.top_header nav ul li.item-anthor:active,
-header.top_header nav ul li.item-anthor:focus {
-    background: linear-gradient(120deg, $color-purple, $color-transition);
-}
-
-header.top_header nav ul li.item-anthor a {
-    color: $color-white;
-}
-
-header.top_header .image_eduction_one img {
-    margin: 50px 0;
-}
-
-header.top_header h3.text-heading {
-    margin-top: 15%;
-}
-
-header.top_header .description-text p {
-    margin-top: 7%;
-}
-
-header.top_header .link-sign-up a {
-    background: linear-gradient(45deg, $color-cyan, $color-transition);
-    padding: 18px 25px;
-    margin-right: 12px;
-    margin-top: 6%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    transition: all 0.5s ease-in-out;
-}
-
-header.top_header .link-sign-up a:hover,
-header.top_header .link-sign-up a:active,
-header.top_header .link-sign-up a:focus {
-    color: $color-white;
-    background: linear-gradient(120deg, $color-purple, $color-transition);
 }
 
 .icon-social-media ul {
@@ -143,29 +60,6 @@ header.top_header .link-sign-up a:focus {
     color: $color-wheat;
 }
 
-header.top_header #carouselSliderIndicators {
-    position: relative;
-}
-
-header.top_header #carouselSliderIndicators ol {
-    padding: 0;
-}
-
-header.top_header #carouselSliderIndicators ol li {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-
-header.top_header #carouselSliderIndicators ol li.active {
-    background-color: $color-transition;
-}
-
-header.top_header #carouselSliderIndicators a img {
-    position: absolute;
-    height: 40px;
-    top: 90%;
-}
 
 // STYLES ABOUT US
 
@@ -180,458 +74,6 @@ section .title_section {
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 
-section.About_us .title_item h3 {
-    margin: 30px 0;
-}
-
-section.About_us .line {
-    width: 280px;
-}
-
-section.About_us .long-description p {
-    margin-bottom: 35px;
-}
-
-section.About_us .long-description h5.custom_heading {
-    margin-bottom: 15px;
-    font-size: 16px;
-}
-
-section.About_us .long-description ul {
-    padding: 0;
-}
-
-section.About_us .long-description ul li {
-    margin-right: 25px;
-    margin-top: 20px;
-    background: linear-gradient(90deg, $color-cyan, $color-transition);
-    padding: 20px 50px;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 18px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;    
-    transition: all 0.5s ease-in-out;
-}
-
-section.About_us .long-description ul li:hover,
-section.About_us .long-description ul li:active,
-section.About_us .long-description ul li:focus {
-    background: linear-gradient(90deg, $color-Light-blue, $color-purple);
-}
-
-section.About_us .long-description ul li a {
-    color: $color-wheat;
-    transition: all 0.5s ease-in-out;
-}
-
-section.About_us .long-description ul li a:hover,
-section.About_us .long-description ul li a:active,
-section.About_us .long-description ul li a:focus {
-    text-decoration: none;
-    color: $color-white;
-}
-
-section.Features .featured-card {
-    position: relative;
-    margin-bottom: 50px;
-    background: $color-white;
-    text-align: center;
-    padding: 60px 40px 50px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 45px 0px rgb(0 0 0 / 15%);
-    z-index: 1;
-}
-
-section.Features .featured-card h3 {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-bottom-left-radius: 30px;
-    background: linear-gradient(90deg, $color-Light-blue, $color-purple); 
-    font-size: 24px;
-    font-weight: 500;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    color: $color-white;
-}
-
-section.Features .featured-card img {
-    height: 150px;
-    background: $color-antiquewhite;
-    padding: 5px;
-    border-top-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    margin-bottom: 30px;
-}
-
-section.Features .featured-card p {
-    margin-top: 20px;
-}
-
-section.Features .show-more-features {
-    background: linear-gradient(190deg, $color-Light-blue, $color-purple); 
-    padding: 20px 28px;
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 18px;
-    box-shadow: 0 20px 30px rgb(0 0 0 / 20%);
-    color: $color-wheat;
-    transition: all .5s ease-in-out;
-}
-
-section.Features .show-more-features svg {
-    font-size: 24px;
-    margin-left: 5px;
-    margin-bottom: -3px;
-}
-
-section.Features .show-more-features:hover,
-section.Features .show-more-features:active,
-section.Features .show-more-features:focus {
-    text-decoration: none;
-    color: $color-white;
-}
-
-section.how-it-works .title_section {
-    margin: 65px 0;
-}
-
-section.how-it-works .line {
-    height: 2px;
-    width: 185px;
-    margin: -50px auto 30px;
-    box-shadow: 0 0 0 3px rgb(3 102 214 / 30%);
-}
-
-section.how-it-works .how-to-use-website {
-    margin-top: 6%;
-    text-align: right;
-}
-
-section.how-it-works .how-to-use-website .numbers h3 {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    background: linear-gradient( 90deg, $color-cyan, $color-transition);
-    font-size: 24px;
-    color: $color-white;
-    border-radius: 5px 20px 5px;
-}
-
-section.how-it-works .how-to-use-website .numbers .description {
-    display: inline;
-    font-weight: 600;
-    margin-right: 15px;
-}
-
-section.how-it-works .how-to-use-website .numbers .description a {
-    color: $color-Light-blue;
-    transition: all .5s ease-in-out;
-}
-
-section.how-it-works .how-to-use-website .numbers .description a:hover {
-    text-decoration: none;
-    color: $color-transition;
-}
-
-section.how-it-works .vedio_motion iframe {
-    border: 5px solid $color-Light-blue;
-}
-
-section.Choose-teacher .line {
-    width: 130px;
-}
-
-section.Choose-teacher .card-group .card {
-    position: relative;
-    margin: 25px 0 45px 0;
-    border-radius: 10px;
-    box-shadow: 0 0 45px 0 rgb(0 0 0 / 15%);
-}
-
-section.Choose-teacher .card-group .card .get-started {
-    position: absolute;
-    background: linear-gradient(75deg, $color-purple, $color-Light-blue);
-    padding: 7px 15px;
-    left: 0;
-    // border-bottom-right-radius: 10px;
-}
-
-section.Choose-teacher .card-group .card .get-started a {
-    color: $color-wheat;
-    font-weight: 500;
-    transition: all 0.3s ease-in-out;
-}
-
-section.Choose-teacher .card-group .card .get-started a:hover {
-    text-decoration: none;
-    color: $color-white;
-}
-
-section.Choose-teacher .card-group .card .card-body {
-    text-align: right;
-}
-
-section.Choose-teacher .card-group .card img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 215px;
-}
-
-section.Choose-teacher .card-group .card h5 {
-    font-size: 18px;
-}
-
-section.Choose-teacher .card-group .card h5 svg {
-    margin-left: 5px;
-    color: $color-transition;
-    font-size: 22px;
-}
-
-section.Choose-teacher .card-group .card .card-footer .star svg {
-    color:$color-star;
-    font-size: 15px;
-}
-
-section.Choose-teacher .card-group .card .card-footer .star svg.active {
-    color: $color-star-active;
-    font-size: 15px;
-}
-
-section.Choose-teacher .card-group .card .card-footer .star small {
-    font-weight: bold;
-}
-
-section.Choose-teacher .card-group .card .card-footer .student small {
-    font-weight: bold;
-    font-size: 14px;
-}
-
-section.Choose-teacher .card-group .card .card-footer .student svg {
-    color: $color-transition;
-    font-size: 22px;
-}
-
-section.Choose-teacher .read-more a {
-    background: linear-gradient(50deg, $color-purple, $color-Light-blue);
-    border-radius: 2px;
-    color: $color-antiquewhite;
-    font-family: $font-heading;
-    padding: 10px 20px;
-}
-
-section.Choose-teacher .show-more-teachears {
-    background: linear-gradient(190deg, $color-Light-blue, $color-purple); 
-    padding: 20px 28px;
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 18px;
-    box-shadow: 0 20px 30px rgb(0 0 0 / 20%);
-    color: $color-wheat;
-    transition: all .5s ease-in-out;
-}
-
-section.Choose-teacher .show-more-teachears svg {
-    font-size: 22px;
-    margin-bottom: -4px;
-    margin-left: 3px;
-}
-
-section.Choose-teacher .show-more-teachears:hover {
-    text-decoration: none;
-    color: $color-white;
-}
-
-footer.latest-footer {
-    background: linear-gradient(190deg, $color-Light-blue, $color-purple);
-    margin-top: 6%;
-}
-
-footer.latest-footer .link-arabe {
-    text-align: right;
-}
-
-footer.latest-footer .title-column h4.custom-heading {
-    margin-top: 50px;
-    color: $color-antiquewhite;
-}
-
-footer.latest-footer .line {
-    height: 2px;
-    width: 142px;
-    margin: -5px auto 30px 100%;
-    box-shadow: $color-rgba-two 0px 5px, 
-    $color-rgba-one 0px 10px
-}
-
-footer.latest-footer .line.links {
-    width: 135px;
-}
-
-footer.latest-footer .line.info {
-    width: 190px;
-    margin: 0px auto 30px 100%;
-}
-
-footer.latest-footer .logo-website a img {
-    height: 75px;
-    margin-bottom: 25px;
-}
-
-footer.latest-footer .about-description p {
-    color: $color-wheat;
-    margin-bottom: 10%;
-}
-
-footer.latest-footer .btn-link a {
-    font-weight: bold;
-    color: $color-black;
-    background-color: $color-rgba-one;
-    padding: 12px 25px;
-    border-radius: 25px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, 
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    transition: all 0.5s ease-in-out;
-}
-
-footer.latest-footer .btn-link a:hover,
-footer.latest-footer .btn-link a:active,
-footer.latest-footer .btn-link a:focus {
-    text-decoration: none;
-    background-color: $color-rgba-two;
-}
-
-footer.latest-footer .imortant-links {
-    margin: 12px 0;
-}
-
-footer.latest-footer .imortant-links a.link {
-    color: $color-wheat;
-    transition: all .5s ease-in-out;
-}
-
-footer.latest-footer .imortant-links a.link svg {
-    margin-left: 8px;
-    font-size: 20px;
-}
-
-footer.latest-footer .imortant-links a.link:hover,
-footer.latest-footer .imortant-links a.link:active,
-footer.latest-footer .imortant-links a.link:focus {
-    text-decoration: none;
-    color: $color-antiquewhite;
-}
-
-footer.latest-footer .info-contact {
-    margin: 18px 0;
-}
-
-footer.latest-footer .info-contact span {
-    font-weight: bold;
-}
-
-footer.latest-footer .info-contact svg {
-    font-size: 22px;
-    margin-left: 6px;
-    color: $color-rgba-one;
-}
-
-footer.latest-footer form {
-    width: 100%;
-    margin: 50px 0 5px 0;
-}
-
-footer.latest-footer form input {
-    height: 60px;
-    margin-top: 12px;
-    font-family: $font-lang;
-}
-
-footer.latest-footer form button.btn-custom {
-    font-family: $font-lang;
-    font-size: 18px;
-    font-weight: bold;
-    color: $color-black;
-    background-color: $color-rgba-one;
-    padding: 12px 25px;
-    border-radius: 25px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, 
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    transition: all 0.5s ease-in-out;
-}
-
-footer.latest-footer form button.btn-custom:hover,
-footer.latest-footer form button.btn-custom:active,
-footer.latest-footer form button.btn-custom:focus {
-    background-color: $color-rgba-two;
-}
-
-footer.latest-footer ul {
-    margin-top: 4%;
-}
-
-footer.latest-footer .copyright p {
-    font-weight: normal;
-    color: $color-white;
-}
-
-
-// Style Page About Us 
-
-header.top_header .image img {
-    height: 400px;
-    margin: 30px 0;
-}
-
-header.top_header .title-column h4 {
-    margin: 30px 0;
-}
-
-section.About_us .about-us-more .small-text p svg {
-    font-size: 20px;
-    margin-left: 7px;
-    color: $color-transition;
-}
-
-section.statistics {
-    background-image: url(../images/banner-education.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding: 35px;
-    margin-top: 30px;
-}
-
-section.statistics .icon img {
-    height: 120px;
-    margin: 25px 0;
-}
-
-section.statistics .icon img {
-    height: 120px;
-    margin: 25px 0 30px;
-}
-
-section.statistics span.timer {
-    font-family: $font-heading;
-    font-size: 30px;
-    border: 2px solid $color-oldlace;
-    padding: 8px;
-    margin-bottom: 18px;
-    color: $color-tan;
-}
-
-
-section.statistics p {
-    margin-top: 30px;
-    font-family: $font-heading;
-    font-size: 24px;
-    color: $color-antiquewhite;
-}
 
 section.Choose-teacher.Our-Teachers .line {
     width: 120px;
@@ -647,296 +89,12 @@ section.more-features .icon-title-text h5 {
 }
 
 
-// Page Teachers Filters
 
-.bg-color {
-    background-color: $color-filter;
-    padding: 25px 0;
-}
 
-.form-check-input {
-    position: static !important;
-    border: 0;
-    color: $color-Light-blue !important;
-    font-weight: bold;
-    left: 0;
-    bottom: 10px;
-    margin: 25px 0px;
-    margin-top: 0 !important;
-    margin-left: 0 !important;
-    background-color: transparent !important;
-}
-
-.ui-widget.ui-widget-content {
-    border: 1px solid $color-Light-blue !important;
-    margin: -25px 0px;
-}
-
-.ui-slider-range.ui-corner-all.ui-widget-header {
-    background: linear-gradient(50deg, $color-purple, $color-xblue);
-}
-
-span.ui-slider-handle.ui-corner-all.ui-state-default {
-    background-color: $color-black;
-    border-radius: 3px;
-    border-color: transparent;
-}
-
-.form-check {
-    padding-left: 0 !important;
-}
-
-
-select.form-control {
-    border-radius: 0;
-    border-color: $color-Light-blue;
-}
-
-select.form-control:hover {
-    cursor: pointer;
-}
-
-.form-group button.filter-btn {
-    font-family: $font-heading;
-    margin: 15px 0 0;
-    font-weight: 600;
-    background: linear-gradient(75deg, $color-purple, $color-Light-blue);
-    color: $color-oldlace;
-    border-radius: 0;
-    border-color: transparent;
-    transition: all 0.5s ease-in-out;
-}
-
-.form-group button.filter-btn.more-main {
-    margin: 0;
-}
-
-.form-group button.filter-btn:hover,
-.form-group button.filter-btn:active,
-.form-group button.filter-btn:focus {
-    color: $color-wheat;
-    font-weight: bold;
-}
-
-
-.From-to-time {
-    position: absolute;
-    margin: 25% 0;
-}
-
-.From-To-Date p.between {
-    margin: 0 15px;
-}
-
-h6.cst-title.title-time {
-    margin-top: 25px;
-}
-
-// Page Pricing html
-
-section.Pricing .line {
-    width: 172px;
-}
-
-.pricing-table{
-    background-color: $color-e;
-}
-
-.pricing-table .block-heading {
-    padding-top: 50px;
-    margin-bottom: 40px;
-    text-align: center; 
-}
-
-.pricing-table .block-heading h2 {
-    color: $color-xblue;
-}
-
-.pricing-table .block-heading p {
-    text-align: center;
-    max-width: 420px;
-    margin: auto;
-    opacity: 0.7; 
-}
-
-.pricing-table .heading {
-    text-align: center;
-    padding-bottom: 10px;
-    border-bottom: 1px solid $color-ram; 
-}
-
-.pricing-table .item {
-    background-color: $color-white;
-    box-shadow: 0px 2px 10px $color-ram;
-    border-top: 2px solid $color-cyan;
-    padding: 30px;
-    overflow: hidden;
-    position: relative; 
-    border-radius: 12px;
-    margin: 25px 0;
-}
-
-.pricing-table .col-md-5:not(:last-child) .item {
-    margin-bottom: 30px; 
-}
-
-.pricing-table .item button {
-    font-weight: 600; 
-    background: linear-gradient(100deg, $color-purple, $color-transition);
-    border-color: $color-white;
-    border-radius: 25px;
-    color: $color-wheat;
-    font-family: $font-lang;
-    padding: 14px;
-    transition: all 0.6s ease-in-out;
-}
-
-.pricing-table .item button:hover,
-.pricing-table .item button:active,
-.pricing-table .item button:focus {
-    color: $color-oldlace;
-}
-
-.pricing-table .ribbon {
-    width: 160px;
-    height: 32px;
-    font-family: $font-lang;
-    font-size: 12px;
-    text-align: center;
-    color: $color-white;
-    font-weight: bold;
-    box-shadow: 0px 2px 3px $color-ram;
-    background: $color-Light-blue;
-    transform: rotate(45deg);
-    position: absolute;
-    right: -42px;
-    top: 20px;
-    padding-top: 7px; 
-}
-
-.pricing-table .item p {
-    text-align: center;
-    margin-top: 20px;
-    opacity: 0.7; 
-}
-
-.pricing-table .features .feature {
-    font-weight: 600; 
-}
-
-.pricing-table .features h4 {
-    text-align: center;
-    font-size: 18px;
-    padding: 5px; 
-}
-
-.pricing-table .price h4 {
-    margin: 15px 0;
-    font-size: 45px;
-    text-align: center;
-    color: $color-transition; 
-}
-
-.pricing-table .buy-now button {
-    text-align: center;
-    margin: auto;
-    font-weight: 600;
-    padding: 9px 0; 
-}
-
-
-// Page contact
-
-section.Contact h4.heading-custom {
-    margin-top: 20px;
-}
-
-section.Contact .line {
-    width: 150px;
-}
-
-section.Contact .contact {
-    height: 2px;
-    width: 160px;
-    margin: 15px auto 30px;
-    box-shadow: 0 0 0 3px rgb(3 102 214 / 30%);
-}
-
-section.Contact label {
-    font-family: $font-heading;
-}
-
-section.Contact label svg {
-    font-size: 20px;
-    margin-left: 5px;
-    color: $color-Light-blue;
-}
-
-section.Contact input {
-    font-family: $font-lang;
-}
-
-textarea.form-control {
-    font-family: $font-lang;
-}
-
-section.Contact .send-mail button {
-    background-color: transparent;
-    border-radius: 0;
-    border-color: transparent;
-}
-
-section.Contact .send-mail button.custom-btn {
-    font-weight: 600;
-    background: linear-gradient(75deg, $color-transition, $color-cyan);
-    border-color: #fff;
-    border-radius: 25px;
-    color: wheat;
-    font-family: $font-lang;
-    padding: 14px 35px;
-    transition: all .6s ease-in-out;
-}
-
-section.Contact .send-mail button.custom-btn svg {
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-section.Contact .send-mail button.custom-btn:hover,
-section.Contact .send-mail button.custom-btn:active,
-section.Contact .send-mail button.custom-btn:focus {
-    color: $color-e;
-}
-
-section.Contact .image-msg img {
-    height: 330px;
-    margin-top: 20%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Responsive website 
+// Responsive website with MediaQeury
 
 @media (min-width: 320px) and (max-width: 575.98px) {
-    
+
     header.top_header nav ul li.item-anthor {
         margin-top: 20px;
         padding: 10px 25px;
@@ -982,7 +140,7 @@ section.Contact .image-msg img {
     }
 
     section.how-it-works .how-to-use-website .numbers .description {
-        font-weight: normal; 
+        font-weight: normal;
         margin-right: 3px;
         font-size: 15px;
     }
@@ -1040,7 +198,7 @@ section.Contact .image-msg img {
         margin-top: 20%;
     }
 
-        // Filter Teachers
+    // Filter Teachers
 
     h6.cst-title {
         margin: 30px 0;
@@ -1124,9 +282,9 @@ section.Contact .image-msg img {
         height: 280px;
     }
 
-      // Filter Teachers
+    // Filter Teachers
 
-      h6.cst-title {
+    h6.cst-title {
         margin: 30px 0;
     }
 
@@ -1141,7 +299,7 @@ section.Contact .image-msg img {
 
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
 
     header.top_header nav ul li.item-anthor {
         margin-top: 20px;
@@ -1246,9 +404,9 @@ section.Contact .image-msg img {
         display: none;
     }
 
-     // Filter Teachers
+    // Filter Teachers
 
-     .From-To-Date p.between {
+    .From-To-Date p.between {
         margin: 0px 4px;
     }
 
@@ -1258,7 +416,7 @@ section.Contact .image-msg img {
 
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
     // Good Responsive
 
     // page teachers

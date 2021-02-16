@@ -1,0 +1,119 @@
+// Style header index.html
+
+header.top_header {
+    background-image: url(../images/header_top.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.top_header nav button.navbar-toggler {
+    color: #fff;
+    font-size: 25px;
+    background: $color-transition;
+}
+
+header.top_header nav a img {
+    height: 75px;
+}
+
+header.top_header nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+header.top_header nav ul li a {
+    color: $color-black;
+    transition: all 0.5s ease-in-out;
+}
+
+header.top_header nav ul li a:hover,
+header.top_header nav ul li a:active,
+header.top_header nav ul li a:focus {
+    color: $color-white;
+}
+
+header.top_header nav ul li {
+    transition: all 0.5s ease-in-out;
+}
+
+header.top_header nav ul li:hover,
+header.top_header nav ul li:active,
+header.top_header nav ul li:focus {
+    background: linear-gradient(120deg, $color-purple, $color-transition);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+header.top_header nav ul li a.lang {
+    font-family: $font-lang;
+}
+
+header.top_header nav ul li.item-anthor {
+    background: linear-gradient(45deg, $color-cyan, $color-transition);
+    margin-right: 15px;
+    border-radius: 25px;
+    padding: 0px 22px;
+}
+
+header.top_header nav ul li.item-anthor:hover,
+header.top_header nav ul li.item-anthor:active,
+header.top_header nav ul li.item-anthor:focus {
+    background: linear-gradient(120deg, $color-purple, $color-transition);
+}
+
+header.top_header nav ul li.item-anthor a {
+    color: $color-white;
+}
+
+header.top_header .image_eduction_one img {
+    margin: 50px 0;
+}
+
+header.top_header h3.text-heading {
+    margin-top: 15%;
+}
+
+header.top_header .description-text p {
+    margin-top: 7%;
+}
+
+header.top_header .link-sign-up a {
+    background: linear-gradient(45deg, $color-cyan, $color-transition);
+    padding: 18px 25px;
+    margin-right: 12px;
+    margin-top: 6%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: all 0.5s ease-in-out;
+}
+
+header.top_header .link-sign-up a:hover,
+header.top_header .link-sign-up a:active,
+header.top_header .link-sign-up a:focus {
+    color: $color-white;
+    background: linear-gradient(120deg, $color-purple, $color-transition);
+}
+
+header.top_header #carouselSliderIndicators {
+    position: relative;
+}
+
+header.top_header #carouselSliderIndicators ol {
+    padding: 0;
+}
+
+header.top_header #carouselSliderIndicators ol li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+header.top_header #carouselSliderIndicators ol li.active {
+    background-color: $color-transition;
+}
+
+header.top_header #carouselSliderIndicators a img {
+    position: absolute;
+    height: 40px;
+    top: 90%;
+}

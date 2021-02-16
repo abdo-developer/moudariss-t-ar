@@ -1,0 +1,49 @@
+//  Style how-it-works 
+
+section.how-it-works .title_section {
+    margin: 65px 0;
+}
+
+section.how-it-works .line {
+    height: 2px;
+    width: 185px;
+    margin: -50px auto 30px;
+    box-shadow: 0 0 0 3px rgb(3 102 214 / 30%);
+}
+
+section.how-it-works .how-to-use-website {
+    margin-top: 6%;
+    text-align: right;
+}
+
+section.how-it-works .how-to-use-website .numbers h3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: linear-gradient(90deg, $color-cyan, $color-transition);
+    font-size: 24px;
+    color: $color-white;
+    border-radius: 5px 20px 5px;
+}
+
+section.how-it-works .how-to-use-website .numbers .description {
+    display: inline;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+section.how-it-works .how-to-use-website .numbers .description a {
+    color: $color-Light-blue;
+    transition: all .5s ease-in-out;
+}
+
+section.how-it-works .how-to-use-website .numbers .description a:hover {
+    text-decoration: none;
+    color: $color-transition;
+}
+
+section.how-it-works .vedio_motion iframe {
+    border: 5px solid $color-Light-blue;
+}

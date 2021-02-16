@@ -1,0 +1,65 @@
+// Style Features 
+
+
+section.Features .featured-card {
+    position: relative;
+    margin-bottom: 50px;
+    background: $color-white;
+    text-align: center;
+    padding: 60px 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px 0px rgb(0 0 0 / 15%);
+    z-index: 1;
+}
+
+section.Features .featured-card h3 {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    background: linear-gradient(90deg, $color-Light-blue, $color-purple);
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: $color-white;
+}
+
+section.Features .featured-card img {
+    height: 150px;
+    background: $color-antiquewhite;
+    padding: 5px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-bottom: 30px;
+}
+
+section.Features .featured-card p {
+    margin-top: 20px;
+}
+
+section.Features .show-more-features {
+    background: linear-gradient(190deg, $color-Light-blue, $color-purple);
+    padding: 20px 28px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 20px 30px rgb(0 0 0 / 20%);
+    color: $color-wheat;
+    transition: all .5s ease-in-out;
+}
+
+section.Features .show-more-features svg {
+    font-size: 24px;
+    margin-left: 5px;
+    margin-bottom: -3px;
+}
+
+section.Features .show-more-features:hover,
+section.Features .show-more-features:active,
+section.Features .show-more-features:focus {
+    text-decoration: none;
+    color: $color-white;
+}

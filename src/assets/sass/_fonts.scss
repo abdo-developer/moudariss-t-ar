@@ -1,4 +1,3 @@
-
 // import font arabic
 
 @font-face {
@@ -19,11 +18,20 @@ body {
     font-family: $font-lang;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: $font-heading;
 }
 
-p, span, li, body, a{
+p,
+span,
+li,
+body,
+a {
     font-family: $font-lang;
     font-size: 18px;
 }
@@ -36,7 +44,10 @@ a:hover {
     text-decoration: none;
 }
 
-small, button, label, textarea {
+small,
+button,
+label,
+textarea {
     font-family: $font-lang;
 }
 
