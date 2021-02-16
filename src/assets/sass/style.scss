@@ -358,7 +358,7 @@ section.Choose-teacher .card-group .card .get-started {
     background: linear-gradient(75deg, $color-purple, $color-Light-blue);
     padding: 7px 15px;
     left: 0;
-    border-bottom-right-radius: 10px;
+    // border-bottom-right-radius: 10px;
 }
 
 section.Choose-teacher .card-group .card .get-started a {
@@ -414,6 +414,14 @@ section.Choose-teacher .card-group .card .card-footer .student small {
 section.Choose-teacher .card-group .card .card-footer .student svg {
     color: $color-transition;
     font-size: 22px;
+}
+
+section.Choose-teacher .read-more a {
+    background: linear-gradient(50deg, $color-purple, $color-Light-blue);
+    border-radius: 2px;
+    color: $color-antiquewhite;
+    font-family: $font-heading;
+    padding: 10px 20px;
 }
 
 section.Choose-teacher .show-more-teachears {
@@ -642,7 +650,7 @@ section.more-features .icon-title-text h5 {
 // Page Teachers Filters
 
 .bg-color {
-    background-color: $color-antiquewhite;
+    background-color: $color-filter;
     padding: 25px 0;
 }
 
